@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #000;
+} */
+.box{
+    height: 1000px;
+    width: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.text{
+    
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+   
+}
+.n{
+    position: relative;
+}
+.box_child1{
+    height: 200px;
+    width: 800px;
+    background-color: blue;
+}
+.box_child2{
+    display: flex;
+    width: 800px;
+    height: 200px;
+}
+.box_child2{
+    height: 200px;
+    width: 10px;
+    background-color: yellow;
+    animation-name: bola2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: initial;
+    animation-play-state: paused;
+
+}
+.box_child2:hover{
+    animation-play-state: running;
+}
+@keyframes bola2 {
+    0%{
+        width: 10px; 
+    }
+    50%{
+        width: 800px;
+    }
+    100%{
+        width: 10px;
+    }
+}
+.box_child3{
+    height: 200px;
+    width: 10px;
+    background-color: rgb(70, 242, 70);
+    animation-name: bola3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: initial;
+    animation-play-state: paused;
+
+}
+.box_child3:hover{
+    animation-play-state: running;
+}
+@keyframes bola3 {
+    0%{
+        width: 10px; 
+    }
+    50%{
+        width: 800px;
+    }
+    100%{
+        width: 10px;
+    }
+}
+.box_child4{
+    height: 200px;
+    width: 10px;
+    background-color: rgb(244, 83, 83);
+    
+    animation-name: bola4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: initial;
+    animation-play-state: paused;
+
+}
+.box_child4:hover{
+    animation-play-state: running;
+}
+@keyframes bola4 {
+    0%{
+        width: 10px; 
+    }
+    50%{
+        width: 800px;
+    }
+    100%{
+        width: 10px;
+    }
+}
+.box_child5{
+    height: 200px;
+    width: 10px;
+    background-color: rgb(240, 115, 207);
+    animation-name: bola5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: initial;
+    animation-play-state: paused;
+
+}
+.box_child5:hover{
+    animation-play-state: running;
+}
+@keyframes bola5 {
+    0%{
+        width: 10px; 
+    }
+    50%{
+        width: 800px;
+    }
+    100%{
+        width: 10px;
+    }
+} 
